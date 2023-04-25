@@ -1,5 +1,64 @@
 /* remove this code and add your own! */
-.greeting {
-  color: green;
-  font-size: 30px;
+#main{
+  margin: 0 auto;
+  width: 800px;
+  display:flex;
+  align-content: center;
+  background-color: black;
+  color: white;
+}
+.profile-pic{
+  position: relative;
+  width: 180px;
+  height: 200px;
+  background-color: lightseagreen;
+  margin-top: 120px;
+}
+.profile-pic img{
+  position: absolute;
+  bottom:50%;
+  left: 30%;
+  width: 70px;
+  height: 70px;
+  margin-top: 100px;
+}
+.name{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  text-align: center;
+}
+
+.address{
+ align-items: flex-end;
+ width: 180px;
+  height: 200px;
+  background-color: skyblue;
+  text-align: left;
+  padding-top: 20px;
+  line-height: 2;
+ 
+}
+.left-side{
+  width: 500px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.title{
+  background-color: aqua;
+  color: black;
+  margin-left: 30px;
+  width: 290px;
+  line-height: 0;
+  padding-left: 10px;
+  
+}
+.title h1{
+  line-height: 0.8;
+  padding-top: 10px;
+}
+.title p{
+  padding-bottom: 10px;
+  padding-left: 50px;
+  font-weight: bolder;
 }
