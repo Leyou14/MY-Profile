@@ -19,7 +19,7 @@ body{
   position: relative;
   width: 180px;
   height: 200px;
-  background-color: lightseagreen;
+  background-color: gray;
   margin-top: 120px;
 }
 .profile-pic img{
@@ -41,10 +41,11 @@ body{
  align-items: flex-end;
  width: 180px;
   height: 200px;
-  background-color: skyblue;
+  background-color: lightgray;
   text-align: left;
   padding-top: 20px;
   line-height: 2;
+  color: black;
  
 }
 .left-side{
@@ -53,9 +54,9 @@ body{
   margin-left: 20px;
 }
 .title{
-  background-color: aqua;
+  background-color: whitesmoke;
   color: black;
-  margin-left: 30px;
+  margin-left: 100px;
   width: 290px;
   line-height: 1.5;
   padding-left: 10px;
