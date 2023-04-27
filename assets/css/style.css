@@ -1,8 +1,15 @@
 /* remove this code and add your own! */
+*{
+  margin: 0 auto;
+}
+
+body{
+  width: 900px;
+  border: 2px solid black;
+  display: block;
+}
 #main{
   margin: 0 auto;
-  width: 900px;
-  
   display:flex;
   align-content: center;
   background-color: black;
@@ -50,7 +57,7 @@
   color: black;
   margin-left: 30px;
   width: 290px;
-  line-height: 0;
+  line-height: 1.5;
   padding-left: 10px;
   
 }
@@ -68,6 +75,7 @@
   width: 500px;
   justify-content: space-between;
 }
+
 #projects img{
   max-width: 100%;
 }
