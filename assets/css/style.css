@@ -1,67 +1,175 @@
 /* remove this code and add your own! */
 *{
   margin: 0 auto;
+  height: auto;
 }
 
 body{
-  width: 900px;
-  border: 2px solid black;
-  display: block;
-}
-#main{
   margin: 0 auto;
-  display:flex;
-  align-content: center;
-  background-color: black;
-  color: white;
+  padding: 0;
+    align-content: center;
+    background-color: black;
 }
-.profile-pic{
+#header{
   position: relative;
-  width: 180px;
-  height: 200px;
-  background-color: gray;
-  margin-top: 120px;
+  width: 100%;
+   background-image: url("../img/backgroundImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 400px;
+  overflow: hidden;
 }
 .profile-pic img{
   position: absolute;
-  bottom:50%;
-  left: 30%;
-  width: 70px;
-  height: 70px;
+  top: 0%;
+  left: 0%;
+  width: 180px;
+  height: 200px;
   margin-top: 100px;
+  border-radius: 50%;
 }
-.name{
-  position: absolute;
+.scrolling-name{
+   position: absolute;
   top: 50%;
-  left: 5%;
-  text-align: center;
+  left: 70;
+  width:75%;
+  animation: scrollText 20s linear infinite; /* Adjust the duration and timing function as needed */
+  white-space: nowrap; /* Prevent the name from wrapping to the next line */
 }
 
-.address{
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%); /* Start offscreen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Scroll completely offscreen to the left */
+  }
+}
+
+#main{
+  
+ justify-content: center;
+  width: 90%;
+  display: block;
+  background-color: rgb(14, 14, 59);
+  color: wheat;
+}
+navbar{
+ display: flex;
+ display: flex-end;
+ justify-content: center;
+ padding: 30px;
+ background-color: black;
+ position: fixed;
+ top:0;
+ left:0;
+ width: 100%;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 700;
+ font-size: larger;
+}
+navbar ul{
+  display: flex;
+  list-style: none;
+  
+}
+navbar ul li a{
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+}
+
+.profile-pic{
+  position: relative;
+}
+
+.profile-pic img{
+  position: absolute;
+  top: 0%;
+  left: 80%;
+}
+#career-profile{
+  padding-top: 30px;
+  width: 70%;
+  height: 300px;
+  color: white;
+}
+#career-profile p{
+  font-weight: bold;
+  font-size: larger;
+  line-height: 1.5;
+}
+#experience{
+  color: white;
+  width: 70%;
+  height: 300px;
+}
+#experience p{
+   font-weight: bold;
+  font-size: larger;
+  line-height: 1.5;
+}
+#skills{
+  display: flex;
+ color: white;
+  width: 70%;
+  height: 300px;
+  font-weight: bold;
+  font-size: larger;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+.skill-title{
+  margin-top: 200px;
+  width:70%;
+   color: white;
+}
+
+#education{
+  padding-top: 50px;
+  background-color: rgb(14, 14, 59);
+  width: 70%;
+  height: 300px;
+  color: white;
+}
+#education p{
+  font-weight: bold;
+  font-size: larger;
+  line-height: 1.5;
+}
+.cv{
+  align-items: center;
+}
+.cv button{
+ background-color: bisque;
+ padding: 20px;
+ border-radius: 10px;
+ border: none;
+ color: aqua;
+ font-weight: bold;
+ font-size: larger;
+ font-family: verdana;
+ font-style: normal;
+ margin-left: 50%;
+}
+/* .address{
  align-items: flex-end;
  width: 180px;
-  height: 200px;
+height: 200px;
   background-color: lightgray;
   text-align: left;
   padding-top: 20px;
   line-height: 2;
   color: black;
+  border: 10px solid black;
+  border-top: none;
  
-}
-.left-side{
-  width: 600px;
-  margin-right: 30px;
-  margin-left: 20px;
-}
-.title{
-  background-color: whitesmoke;
-  color: black;
-  margin-left: 100px;
-  width: 290px;
-  line-height: 1.5;
-  padding-left: 10px;
-  
-}
+} */
+
+
+
 .title h1{
   line-height: 0.8;
   padding-top: 10px;
@@ -72,29 +180,108 @@ body{
   font-weight: bolder;
 }
 #projects{
- 
-  width: 500px;
-  justify-content: space-between;
+position: relative;
+ padding-bottom: 30px;
+  background-color: rgb(14, 14, 59);
+display: flex;
+  width: 70%;
+   justify-content: space-between;
+}
+#projects img{
+  width: 30%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#projects .image3{
+  border: 5px solid white;
+}
+.project-title{
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 30px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+
 }
 
-#projects img{
-  max-width: 100%;
+.link{
+  position: absolute;
+  top: 85%;
+  left: 5%;
+ 
 }
-.image1, .image2, .image3{
-  width: 25%;
-  float: left;
-  margin-right: 20px;
-  margin-left: 20px;
+.link1{
+  position: absolute;
+  top: 85%;
+  left: 15%;
+  
 }
+.link2a{
+  position: absolute;
+  top: 85%;
+  left: 50%;
+}
+.link2{
+  position: absolute;
+  top: 85%;
+  left: 40%;
+}
+.link3a{
+    position: absolute;
+  top: 85%;
+  left: 85%;
+}
+.link3{
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
 footer{
   padding: 10px;
-  background-color: whitesmoke;
-  color: black;
+  background-color: navy;
+  color: white;
 }
 
-#skills{
-  display: flex;
-}
+
+
+  
+
 .column1{
   margin-right: 70px;
 }
+/* .right-side{
+  height: 50%;
+} */
+
+
+/* @media (max-width: 768px){
+ body{
+   margin-left: auto;
+    margin-right: auto;
+  width:95%;
+ }
+ .right-side{
+  display: none;
+ }
+ .profile-pic img{
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  width: 180px;
+  height: 200px
+ }
+ .link1{
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  margin-left: 40px;
+}
+} */
+
+  
+
+
