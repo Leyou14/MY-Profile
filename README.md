@@ -1,3 +1,3 @@
-# # Hi! :Hi!: I'm Etsegenet Mengistu, a Front-End Developer.
+# # Hi! 👋: I'm Etsegenet Mengistu, a Front-End Developer.
 I created this profile using HTML, CSS, JavaScript. 
 
