@@ -111,10 +111,19 @@ navbar ul li a {
   line-height: 1.5;
 }
 #skill-container {
-  padding-top: 50px;
+  background-image: url("../img/download.jpeg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  
+
 }
 #skills {
   display: flex;
+    justify-content: center;
+  align-items: center;
   color: white;
   width: 70%;
   height: 300px;
@@ -124,22 +133,30 @@ navbar ul li a {
   margin-top: 30px;
 }
 .skill-title {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 70%;
   color: white;
 }
 
 #education {
+  background-image: url("../img/education-bg.jpg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 100px;
   background-color: rgb(14, 14, 59);
+   height: 400px;
+  width: 100%;
+  color: black;
+}
+.education-container {
   width: 70%;
-  height: 300px;
-  color: white;
 }
 #education p {
   font-weight: bold;
   font-size: larger;
   line-height: 1.5;
+ 
 }
 .cv {
   align-items: center;
