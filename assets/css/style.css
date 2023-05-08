@@ -18,7 +18,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
 }
 .profile-pic img{
@@ -91,10 +91,11 @@ navbar ul li a{
   left: 80%;
 }
 #career-profile{
-  padding-top: 30px;
+  padding-top: 100px;
   width: 70%;
-  height: 300px;
+  height: 400px;
   color: white;
+
 }
 #career-profile p{
   font-weight: bold;
@@ -105,11 +106,16 @@ navbar ul li a{
   color: white;
   width: 70%;
   height: 300px;
+  margin-bottom: 100px;
+  padding-top: 100px;
 }
 #experience p{
    font-weight: bold;
   font-size: larger;
   line-height: 1.5;
+}
+#skill-container{
+  padding-top: 50px;
 }
 #skills{
   display: flex;
@@ -128,7 +134,7 @@ navbar ul li a{
 }
 
 #education{
-  padding-top: 50px;
+  padding-top: 100px;
   background-color: rgb(14, 14, 59);
   width: 70%;
   height: 300px;
@@ -153,22 +159,8 @@ navbar ul li a{
  font-family: verdana;
  font-style: normal;
  margin-left: 50%;
+ cursor: pointer;
 }
-/* .address{
- align-items: flex-end;
- width: 180px;
-height: 200px;
-  background-color: lightgray;
-  text-align: left;
-  padding-top: 20px;
-  line-height: 2;
-  color: black;
-  border: 10px solid black;
-  border-top: none;
- 
-} */
-
-
 
 .title h1{
   line-height: 0.8;
@@ -179,15 +171,21 @@ height: 200px;
   padding-left: 50px;
   font-weight: bolder;
 }
+#project-container{
+  margin-top: 100px;
+  padding-top: 100px;
+}
 #projects{
-position: relative;
- padding-bottom: 30px;
-  background-color: rgb(14, 14, 59);
-display: flex;
-  width: 70%;
-   justify-content: space-between;
+  position: relative;
+  padding-bottom: 30px;
+    margin-top: 50px;
+    background-color: rgb(14, 14, 59);
+  display: flex;
+    width: 70%;
+    justify-content: space-between;
 }
 #projects img{
+
   width: 30%;
   box-sizing: border-box;
   margin: 0;
@@ -201,10 +199,17 @@ display: flex;
   text-align: center;
   display: block;
   color: white;
-  padding: 30px 0;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
 
+}
+.contact-title{
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 100px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
 }
 
 .link{
@@ -246,42 +251,178 @@ footer{
   color: white;
 }
 
-
-
-  
-
 .column1{
   margin-right: 70px;
 }
-/* .right-side{
-  height: 50%;
-} */
+#contact-me{
+  display:flex;
+  background-color: goldenrod;
+  width: 70%;
+  padding:100px 0;
+  
+}
+#contact-me a{
+text-decoration: none;
+  color: black;
+}
+
+.email, .location{
+  color: black;
+}
+.email h3{
+  margin-left: 10px;
+}
+.firstTwo{
+  display: block;
+  margin-left: 20px;
+}
+.secondTwo{
+  display: block;
+}
+.github{
+  display: flex;
+ margin-bottom: 20px;
+}
+.github h3{
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+ .linkedin img{
+  margin-left: 30px;
+ }
+.linkedin{
+  display: flex;
+ 
+  
+}
+.linkedin h3{
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-left: 10px;
+ 
+}
+
+.email{
+  display: flex;
+  margin-bottom: 20px;
+}
+.email h3{
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.location{
+  display: flex;
+
+}
+.location h3{
+  margin-top: 20px;
+  margin-right: 80px;
+}
+.contact-me h3{
+  padding-top: 10px;
+
+}
 
 
-/* @media (max-width: 768px){
+@media (max-width: 768px){
  body{
    margin-left: auto;
     margin-right: auto;
   width:95%;
  }
- .right-side{
+
+.github img{
+  margin-left: 50px;
+}
+.github h3{
+  margin-left: 0;
+}
+ .profile-pic img{
   display: none;
  }
- .profile-pic img{
-  position: absolute;
-  top: 40%;
-  left: 60%;
-  width: 180px;
-  height: 200px
- }
- .link1{
-  position: absolute;
-  top: 85%;
-  left: 20%;
+ .link1, .link, .link2, .link2a, .link3, .link3a, button{
+ width: auto;
+ font-size: 3px;
+ width: 20px;
+ text-align: center;
+}
+#contact-me{
+  flex-direction: column;
+  width: 100%;
+ padding:20px 0;
+}
+.firstTwo, .secondTwo{
+  display: block;
+}
+#main{
+  width: 100%;
+  display: block;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 1.5em;
+}
+#education{
+ height: 100px;
+ margin-bottom: 20px;
+}
+body{
+  height: auto;
+}
+navbar{
+  width: 90%;
+  font-size: 10px;
+}
+#skills{
+  height: 100px;
+}
+.cv button{
+   padding: 5px auto;
+   width: 100px;
+   cursor: pointer;
+}
+.linkedin img{
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.email img
+{
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+  margin-left: 40px;
+  
+}
+.location img{
   margin-left: 40px;
 }
-} */
+.burger-menu {
+  width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
 
-  
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color: #000;
+  transition: transform 0.3s ease;
+}
+
+.burger-menu.open .bar:first-child {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.open .bar:last-child {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+}
 
 

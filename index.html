@@ -11,12 +11,13 @@
   <body>
     <header id="header">
       <navbar>
-        <div class="logo">Portfolio</div>
-        <ul>
+        <div class="logo burger-menu">Portfolio</div>
+        <ul class="bar">
           <li><a href="#career-profile">Career Profile</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#skill-container">Skills</a></li>
           <li><a href="#education">Education</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#project-container">Projects</a></li>
           <li><a href="#contact-me">Contact Me</a></li>
         </ul>
       </navbar>
@@ -83,7 +84,7 @@
             </p>
           </div>
         </div><br/>
-        <div>
+        <div id="skill-container">
           <h2 class="skill-title">Skills</h2>
         <div id="skills">
           
@@ -100,7 +101,7 @@
           </div>
           
         </div>
-        <div class="cv"><button>Download CV</button></div>
+        <div class="cv"><a href="Etsegenet Mengistu's Resume.pdf"><button>Download CV</button></a></div>
         <div id="education">
           <div>
             <h2>Education</h2><br/>
@@ -116,7 +117,7 @@
           </div>
         </div><br/>
         
-          <div>
+          <div id="project-container">
           <h2 class="project-title">Projects</h2><br/>
           <div id="projects">
           
@@ -127,16 +128,38 @@
           
             <img class="image2" src="assets/img/WeatherApp.png" alt="" />
               
-          <a class="link2" href="https://github.com/Leyou14/calculator.git"><button>Source Code</button></a> 
+          <a class="link2" href="https://github.com/Leyou14/WeatherApp"><button>Source Code</button></a> 
 
-            <a class="link2a" href=" https://leyou14.github.io/calculator/"><button>Live Demo</button></a>
+            <a class="link2a" href="  https://leyou14.github.io/WeatherApp/"><button>Live Demo</button></a>
 
             <img class="image3" src="assets/img/portfolio.png" alt="" />
             <a class="link3" href="https://github.com/Leyou14/calculator.git"><button>Source Code</button></a> 
 
             <a class="link3a" href=" https://leyou14.github.io/calculator/"><button>Live Demo</button></a>
           </div>
-        
+
+          <div> <h3 class="contact-title">Contact Me</h3>
+          <div id="contact-me" >
+            <div class="firstTwo">
+              <div class="github" >
+                <img  src="assets/img/291716_github_logo_social network_social_icon.png" alt="">
+          <a href="https://github.com/Leyou14">
+            <h3>https://github.com/Leyou14</h3></a></div>
+          <div class="linkedin"><img  src="assets/img/8134637_link_linkedin_icon.png" alt="">
+          <a href="https://www.linkedin.com/in/Etsegenet-L"><h3>https://www.linkedin.com/in/Etsegenet-L </h3></a>
+        </div>
+            </div>
+          <div class="secondTwo">
+            <div class="email"><img src="assets/img/email_icon.png" alt="">
+            <h3>lean76etse@gmail.com</h3>
+          </div>
+          <div class="location"><img  src="assets/img/1814106_location_map_marker_icon.png" alt="">
+          <h3>Lorton, Virginia.</h3>
+        </div>
+      </div>
+      </div>
+          </div>
+          
           </div>
     </div>
 
@@ -148,6 +171,14 @@
     <footer class="footer">
       ©Copy Right 2023. Etsegenet
     </footer>
+    <script>
+      var burgerMenu = document.querySelector('.burger-menu');
+
+burgerMenu.addEventListener('click', function() {
+  this.classList.toggle('open');
+});
+
+    </script>
   </body>
 </html>
 
