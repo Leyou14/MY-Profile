@@ -1,19 +1,18 @@
-/* remove this code and add your own! */
-*{
+* {
   margin: 0 auto;
   height: auto;
 }
 
-body{
+body {
   margin: 0 auto;
   padding: 0;
-    align-content: center;
-    background-color: black;
+  align-content: center;
+  background-color: black;
 }
-#header{
+#header {
   position: relative;
   width: 100%;
-   background-image: url("../img/backgroundImage.jpg");
+  background-image: url("../img/backgroundImage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +20,7 @@ body{
   height: 500px;
   overflow: hidden;
 }
-.profile-pic img{
+.profile-pic img {
   position: absolute;
   top: 0%;
   left: 0%;
@@ -30,12 +29,12 @@ body{
   margin-top: 100px;
   border-radius: 50%;
 }
-.scrolling-name{
-   position: absolute;
+.scrolling-name {
+  position: absolute;
   top: 50%;
   left: 70;
-  width:75%;
-  animation: scrollText 20s linear infinite; /* Adjust the duration and timing function as needed */
+  width: 75%;
+  animation: scrollText 10s linear infinite; /* Adjust the duration and timing function as needed */
   white-space: nowrap; /* Prevent the name from wrapping to the next line */
 }
 
@@ -48,78 +47,75 @@ body{
   }
 }
 
-#main{
-  
- justify-content: center;
+#main {
+  justify-content: center;
   width: 90%;
   display: block;
   background-color: rgb(14, 14, 59);
   color: wheat;
 }
-navbar{
- display: flex;
- display: flex-end;
- justify-content: center;
- padding: 30px;
- background-color: black;
- position: fixed;
- top:0;
- left:0;
- width: 100%;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-weight: 700;
- font-size: larger;
+navbar {
+  display: flex;
+  display: flex-end;
+  justify-content: center;
+  padding: 30px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-size: larger;
 }
-navbar ul{
+navbar ul {
   display: flex;
   list-style: none;
-  
 }
-navbar ul li a{
+navbar ul li a {
   text-decoration: none;
   color: white;
   margin-right: 15px;
 }
 
-.profile-pic{
+.profile-pic {
   position: relative;
 }
 
-.profile-pic img{
+.profile-pic img {
   position: absolute;
   top: 0%;
   left: 80%;
 }
-#career-profile{
+#career-profile {
   padding-top: 100px;
   width: 70%;
   height: 400px;
   color: white;
-
 }
-#career-profile p{
+#career-profile p {
   font-weight: bold;
   font-size: larger;
   line-height: 1.5;
 }
-#experience{
+#experience {
   color: white;
   width: 70%;
   height: 300px;
   margin-bottom: 100px;
   padding-top: 100px;
 }
-#experience p{
-   font-weight: bold;
+#experience p {
+  font-weight: bold;
   font-size: larger;
   line-height: 1.5;
 }
-#skill-container{
+#skill-container {
   padding-top: 50px;
 }
-#skills{
+#skills {
   display: flex;
- color: white;
+  color: white;
   width: 70%;
   height: 300px;
   font-weight: bold;
@@ -127,302 +123,287 @@ navbar ul li a{
   line-height: 1.5;
   margin-top: 30px;
 }
-.skill-title{
+.skill-title {
   margin-top: 200px;
-  width:70%;
-   color: white;
+  width: 70%;
+  color: white;
 }
 
-#education{
+#education {
   padding-top: 100px;
   background-color: rgb(14, 14, 59);
   width: 70%;
   height: 300px;
   color: white;
 }
-#education p{
+#education p {
   font-weight: bold;
   font-size: larger;
   line-height: 1.5;
 }
-.cv{
+.cv {
   align-items: center;
 }
-.cv button{
- background-color: bisque;
- padding: 20px;
- border-radius: 10px;
- border: none;
- color: aqua;
- font-weight: bold;
- font-size: larger;
- font-family: verdana;
- font-style: normal;
- margin-left: 50%;
- cursor: pointer;
+.cv button {
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  color: aqua;
+  font-weight: bold;
+  font-size: larger;
+  font-family: verdana;
+  font-style: normal;
+  margin-left: 50%;
+  cursor: pointer;
 }
 
-.title h1{
+.title h1 {
   line-height: 0.8;
   padding-top: 10px;
 }
-.title p{
+.title p {
   padding-bottom: 10px;
   padding-left: 50px;
   font-weight: bolder;
 }
-#project-container{
+#project-container {
   margin-top: 100px;
   padding-top: 100px;
 }
-#projects{
+#projects {
   position: relative;
   padding-bottom: 30px;
-    margin-top: 50px;
-    background-color: rgb(14, 14, 59);
+  margin-top: 50px;
+  background-color: rgb(14, 14, 59);
   display: flex;
-    width: 70%;
-    justify-content: space-between;
+  width: 70%;
+  justify-content: space-between;
 }
-#projects img{
-
+#projects img {
   width: 30%;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
 }
-#projects .image3{
+#projects .image3 {
   border: 5px solid white;
 }
-.project-title{
+.project-title {
   text-align: center;
   display: block;
   color: white;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
-
 }
-.contact-title{
+.contact-title {
   text-align: center;
   display: block;
   color: white;
   padding: 100px 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
 }
 
-.link{
+.link {
   position: absolute;
   top: 85%;
   left: 5%;
- 
 }
-.link1{
+.link1 {
   position: absolute;
   top: 85%;
   left: 15%;
-  
 }
-.link2a{
+.link2a {
   position: absolute;
   top: 85%;
   left: 50%;
 }
-.link2{
+.link2 {
   position: absolute;
   top: 85%;
   left: 40%;
 }
-.link3a{
-    position: absolute;
+.link3a {
+  position: absolute;
   top: 85%;
   left: 85%;
 }
-.link3{
+.link3 {
   position: absolute;
   top: 85%;
   left: 75%;
 }
 
-footer{
+footer {
   padding: 10px;
   background-color: navy;
   color: white;
 }
 
-.column1{
+.column1 {
   margin-right: 70px;
 }
-#contact-me{
-  display:flex;
+#contact-me {
+  display: flex;
   background-color: goldenrod;
   width: 70%;
-  padding:100px 0;
-  
+  padding: 100px 0;
 }
-#contact-me a{
-text-decoration: none;
+#contact-me a {
+  text-decoration: none;
   color: black;
 }
 
-.email, .location{
+.email,
+.location {
   color: black;
 }
-.email h3{
+.email h3 {
   margin-left: 10px;
 }
-.firstTwo{
+.firstTwo {
   display: block;
   margin-left: 20px;
 }
-.secondTwo{
+.secondTwo {
   display: block;
 }
-.github{
+.github {
   display: flex;
- margin-bottom: 20px;
+  margin-bottom: 20px;
 }
-.github h3{
+.github h3 {
   padding-top: 10px;
   margin-bottom: 20px;
   margin-right: 50px;
 }
- .linkedin img{
+.linkedin img {
   margin-left: 30px;
- }
-.linkedin{
-  display: flex;
- 
-  
 }
-.linkedin h3{
+.linkedin {
+  display: flex;
+}
+.linkedin h3 {
   padding-top: 10px;
   padding-right: 20px;
   margin-left: 10px;
- 
 }
 
-.email{
+.email {
   display: flex;
   margin-bottom: 20px;
 }
-.email h3{
+.email h3 {
   margin-top: 10px;
   margin-right: 50px;
 }
-.location{
+.location {
   display: flex;
-
 }
-.location h3{
+.location h3 {
   margin-top: 20px;
   margin-right: 80px;
 }
-.contact-me h3{
+.contact-me h3 {
   padding-top: 10px;
-
 }
-
-
-@media (max-width: 768px){
- body{
-   margin-left: auto;
-    margin-right: auto;
-  width:95%;
- }
-
-.github img{
-  margin-left: 50px;
-}
-.github h3{
-  margin-left: 0;
-}
- .profile-pic img{
-  display: none;
- }
- .link1, .link, .link2, .link2a, .link3, .link3a, button{
- width: auto;
- font-size: 3px;
- width: 20px;
- text-align: center;
-}
-#contact-me{
-  flex-direction: column;
-  width: 100%;
- padding:20px 0;
-}
-.firstTwo, .secondTwo{
-  display: block;
-}
-#main{
-  width: 100%;
-  display: block;
-  font-weight: 100;
-  font-size: 10px;
-  line-height: 1.5em;
-}
-#education{
- height: 100px;
- margin-bottom: 20px;
-}
-body{
-  height: auto;
-}
-navbar{
-  width: 90%;
-  font-size: 10px;
-}
-#skills{
-  height: 100px;
-}
-.cv button{
-   padding: 5px auto;
-   width: 100px;
-   cursor: pointer;
-}
-.linkedin img{
-  width: 40px;
-  height: 40px;
-  margin-right: 0;
-  margin-left: 60px;
-  margin-bottom: 10px;
-}
-.email img
-{
-  width: 40px;
-  height: 40px;
-  margin-right: 0;
-  margin-left: 40px;
-  
-}
-.location img{
-  margin-left: 40px;
-}
-.burger-menu {
-  width: 30px;
-  height: 20px;
+.telephone{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
+  color: black;
 }
-
-.bar {
-  width: 100%;
-  height: 4px;
-  background-color: #000;
-  transition: transform 0.3s ease;
+.telephone h3 {
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-right: 100px;
 }
-
-.burger-menu.open .bar:first-child {
-  transform: translateY(8px) rotate(45deg);
+.telephone img {
+  margin-top: 10px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
 }
-
-.burger-menu.open .bar:last-child {
-  transform: translateY(-8px) rotate(-45deg);
+@media (max-width: 768px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+.telephone img{
+  margin-left: 80px;
 }
-
+  .github img {
+    margin-left: 80px;
+  }
+  .github h3 {
+    margin-left: 0;
+  }
+  .profile-pic img {
+    display: none;
+  }
+  .link1,
+  .link,
+  .link2,
+  .link2a,
+  .link3,
+  .link3a,
+  button {
+    width: auto;
+    font-size: 3px;
+    width: 20px;
+    text-align: center;
+  }
+  #contact-me {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .firstTwo,
+  .secondTwo {
+    display: block;
+  }
+  #main {
+    width: 100%;
+    display: block;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 1.5em;
+  }
+  #education {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  body {
+    height: auto;
+  }
+  navbar {
+    width: 90%;
+    font-size: 10px;
+  }
+  #skills {
+    height: 100px;
+  }
+  .cv button {
+    padding: 5px auto;
+    width: 100px;
+    cursor: pointer;
+  }
+  .linkedin img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    margin-left: 80px;
+    margin-bottom: 10px;
+  }
+  .email img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0;
+    margin-left: 5px;
+  }
+  .location img {
+    margin-left: 5px;
+  }
 }
-
-
