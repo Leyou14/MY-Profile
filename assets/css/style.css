@@ -81,13 +81,27 @@ navbar ul li a {
 .profile-pic {
   position: relative;
 }
+.profile-shadow{
+  box-shadow: 10px 10px 10px rgba(203, 126, 10, 0.5);
+}
 
 .profile-pic img {
   position: absolute;
   top: 0%;
   left: 80%;
 }
+#career-container{
+  background-image: url("../img/download.jpeg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 #career-profile {
+  
   padding-top: 100px;
   width: 70%;
   height: 400px;
@@ -98,12 +112,20 @@ navbar ul li a {
   font-size: larger;
   line-height: 1.5;
 }
+#experience-container{
+  background-image: url("../img/download.jpeg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
 #experience {
   color: white;
   width: 70%;
   height: 300px;
   margin-bottom: 100px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 #experience p {
   font-weight: bold;
@@ -117,7 +139,8 @@ navbar ul li a {
   background-size: cover;
   height: 400px;
   width: 100%;
-  
+  padding-top: 10px;
+  margin-top: 100px;
 
 }
 #skills {
@@ -130,28 +153,29 @@ navbar ul li a {
   font-weight: bold;
   font-size: larger;
   line-height: 1.5;
-  margin-top: 30px;
+  
 }
 .skill-title {
   margin-top: 100px;
   width: 70%;
   color: white;
 }
-
-#education {
-  background-image: url("../img/education-bg.jpg");
+#education-container {
+  background-image: url("../img/download.jpeg");
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
-  background-color: rgb(14, 14, 59);
    height: 400px;
   width: 100%;
-  color: black;
+  color: white;
+  
 }
-.education-container {
+.education {
   width: 70%;
+  margin-top: 50px;
 }
+
 #education p {
   font-weight: bold;
   font-size: larger;
@@ -171,8 +195,10 @@ navbar ul li a {
   font-size: larger;
   font-family: verdana;
   font-style: normal;
-  margin-left: 50%;
+  margin-left: 40%;
   cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .title h1 {
@@ -185,17 +211,27 @@ navbar ul li a {
   font-weight: bolder;
 }
 #project-container {
+  background-image: url("../img/download.jpeg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(14, 14, 59);
+   height: 600px;
+  width: 100%;
+  color: white;
   margin-top: 100px;
   padding-top: 100px;
+  /* padding-top: 0px; */
+
 }
 #projects {
   position: relative;
   padding-bottom: 30px;
   margin-top: 50px;
-  background-color: rgb(14, 14, 59);
   display: flex;
   width: 70%;
   justify-content: space-between;
+  
 }
 #projects img {
   width: 30%;
@@ -203,6 +239,9 @@ navbar ul li a {
   margin: 0;
   padding: 0;
   border: 0;
+}
+.shadow{
+  box-shadow: 10px 10px 10px rgba(180, 178, 178, 0.5);
 }
 #projects .image3 {
   border: 5px solid white;
@@ -214,14 +253,7 @@ navbar ul li a {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
 }
-.contact-title {
-  text-align: center;
-  display: block;
-  color: white;
-  padding: 100px 0;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-}
+
 
 .link {
   position: absolute;
@@ -253,27 +285,33 @@ navbar ul li a {
   top: 85%;
   left: 75%;
 }
-
-footer {
-  padding: 10px;
-  background-color: navy;
+#contact-container{
+  background-color: goldenrod;
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+.contact-title {
+  text-align: center;
+  display: block;
   color: white;
+  padding-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
 }
 
-.column1 {
-  margin-right: 70px;
-}
 #contact-me {
   display: flex;
-  background-color: goldenrod;
   width: 70%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #contact-me a {
   text-decoration: none;
   color: black;
 }
-
+.column1 {
+  margin-right: 70px;
+}
 .email,
 .location {
   color: black;
@@ -345,6 +383,12 @@ footer {
   padding: 10px;
   width: 40px;
   height: 40px;
+  
+}
+footer {
+  padding: 10px;
+  background-color: navy;
+  color: white;
 }
 @media (max-width: 768px) {
   body {
@@ -352,6 +396,33 @@ footer {
     margin-right: auto;
     width: 95%;
   }
+  #education-container {
+  background-image: url("../img/download.jpeg");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+
+}
+.education {
+  width: 70%;
+  color: white;
+  padding-top: 0px;
+  
+ 
+}
+#project-container{
+  height: 300px;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.shadow, .image3-shadow{
+  box-shadow: 5px 5px 5px 5px rgba(178, 25, 25, 0.5);
+}
+
 .telephone img{
   margin-left: 80px;
   width: 30px;
