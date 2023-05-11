@@ -117,17 +117,23 @@ navbar ul li a {
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 700px;
   width: 100%;
 }
-#experience {
+.experience {
   color: white;
   width: 70%;
   height: 300px;
   margin-bottom: 100px;
   padding-top: 50px;
 }
-#experience p {
+.experience h2{
+  margin-top: 50px;
+  width: 100%;
+  color: white;
+  padding-bottom: 50px;
+}
+.experience p {
   font-weight: bold;
   font-size: larger;
   line-height: 1.5;
@@ -298,6 +304,7 @@ navbar ul li a {
   padding-top: 50px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
+  font-size:xx-large;
 }
 
 #contact-me {
